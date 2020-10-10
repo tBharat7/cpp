@@ -8,7 +8,7 @@ pinMode(LEDpin, OUTPUT);
 }
 
 void loop() {
-alcohol
+alcohol();
 delay(3000);
 }
 
