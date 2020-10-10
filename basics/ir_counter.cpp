@@ -8,7 +8,7 @@ counter();
 delay(3000);
 }
 void show() {
-Serial. print("count=") ;
+Serial. print("count=");
 Serial. println(total) ;
 }
 
