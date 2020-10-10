@@ -1,6 +1,11 @@
+void setup() {
+pinMode(7,INPUT);
+pinMode(8,INPUT);
+}
 
-void loop{
+void loop() {
 counter();
+delay(3000);
 }
 void show() {
 Serial. print("count=") ;
