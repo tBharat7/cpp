@@ -1,0 +1,14 @@
+void setup(){
+
+Serial.begin(9600);
+
+}
+
+void loop(){
+
+float temp=0;
+temp=(5.0*analogRead(0)*100.0/1024;
+
+Serial.println(temp);
+
+}
